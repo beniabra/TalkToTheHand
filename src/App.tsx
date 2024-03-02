@@ -38,10 +38,10 @@ export const App = () => (
           </Flex>
           <TabList paddingTop="4" paddingBottom="4" color="white" style={{ marginLeft: "auto" }}>
             <Grid templateColumns='repeat(4, 1fr)' gap={2}>
-              <Tab color="#ffffff" fontSize="20px" _hover={{ color: '#000000', backgroundColor: '#ffffff'}}>Home</Tab>
-              <Tab color="#ffffff" fontSize="20px" _hover={{ color: '#000000', backgroundColor: '#ffffff' }}>Speech to ASL Converter</Tab>
-              <Tab color="#ffffff" fontSize="20px" _hover={{ color: '#000000', backgroundColor: '#ffffff' }}>Learn ASL</Tab>
-              <Tab color="#ffffff" fontSize="20px" _hover={{ color: '#000000', backgroundColor: '#ffffff' }}>About</Tab>
+              <Tab color="#ffffff" fontSize="18px" _hover={{ color: '#000000', backgroundColor: '#ffffff'}}>Home</Tab>
+              <Tab color="#ffffff" fontSize="18px" _hover={{ color: '#000000', backgroundColor: '#ffffff' }}>Speech to ASL Converter</Tab>
+              <Tab color="#ffffff" fontSize="18px" _hover={{ color: '#000000', backgroundColor: '#ffffff' }}>Learn ASL</Tab>
+              <Tab color="#ffffff" fontSize="18px" _hover={{ color: '#000000', backgroundColor: '#ffffff' }}>About</Tab>
             </Grid>
           </TabList>
         </Flex>
