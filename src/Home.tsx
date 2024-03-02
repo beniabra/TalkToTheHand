@@ -18,10 +18,11 @@ export function Home() {
                 fontFamily="sans-serif"
                 textAlign="center"
             >
-            <Text fontSize="45px" fontWeight="bold" color="#2a3555">
-                Hi, welcome to Talk to the Hand
-            </Text>
-        </Flex>
+                <Text fontSize="45px" fontWeight="bold" color="#2a3555">
+                    Hi, welcome to Talk to the Hand
+                </Text>
+            </Flex>
+            
       </div>
     );
 };

@@ -21,7 +21,7 @@ import { About } from "./About";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <Box textAlign="center" fontSize="xl" backgroundColor="#fffff">
+    <Box textAlign="center" fontSize="xl" backgroundColor="#d9fff7">
 
       <Tabs variant='soft-rounded' colorScheme='teal'>
         <Flex
@@ -37,11 +37,11 @@ export const App = () => (
             <Image src="hand-waving.png" alt="Logo" w="100px" h="auto" />
           </Flex>
           <TabList paddingTop="4" paddingBottom="4" color="white" style={{ marginLeft: "auto" }}>
-            <Grid templateColumns='repeat(4, 1fr)'>
-              <Tab color="#ffffff" _hover={{ color: '#000000', backgroundColor: '#ffffff' }} >Home</Tab>
-              <Tab color="#ffffff" _hover={{ color: '#000000', backgroundColor: '#ffffff' }}>Speech to ASL Converter</Tab>
-              <Tab color="#ffffff" _hover={{ color: '#000000', backgroundColor: '#ffffff' }}>Learn ASL</Tab>
-              <Tab color="#ffffff" _hover={{ color: '#000000', backgroundColor: '#ffffff' }}>About</Tab>
+            <Grid templateColumns='repeat(4, 1fr)' gap={2}>
+              <Tab color="#ffffff" fontSize="18px" _hover={{ color: '#000000', backgroundColor: '#ffffff'}}>Home</Tab>
+              <Tab color="#ffffff" fontSize="18px" _hover={{ color: '#000000', backgroundColor: '#ffffff' }}>Speech to ASL Converter</Tab>
+              <Tab color="#ffffff" fontSize="18px" _hover={{ color: '#000000', backgroundColor: '#ffffff' }}>Learn ASL</Tab>
+              <Tab color="#ffffff" fontSize="18px" _hover={{ color: '#000000', backgroundColor: '#ffffff' }}>About</Tab>
             </Grid>
           </TabList>
         </Flex>
