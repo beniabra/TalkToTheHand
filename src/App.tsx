@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
+import Dictaphone from './Dictaphone';
 
 export const App = () => (
   <ChakraProvider theme={theme}>
@@ -22,6 +23,10 @@ export const App = () => (
           <Text>
             Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
           </Text>
+          <div>
+            <h1>Speech to Text:</h1>
+            <Dictaphone />
+          </div>
           <Link
             color="teal.500"
             href="https://chakra-ui.com"
