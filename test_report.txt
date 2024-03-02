@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (233 ms)
+  ✕ renders learn react link (235 ms)
 
   ● renders learn react link
 
@@ -15,7 +15,7 @@ FAIL src/App.test.tsx
     [36m>[39m
       [36m<div>[39m
         [36m<div[39m
-          [33mclass[39m=[32m"css-1q0pn10"[39m
+          [33mclass[39m=[32m"css-t78608"[39m
         [36m>[39m
           [36m<div[39m
             [33mclass[39m=[32m"chakra-tabs css-1xpribl"[39m
@@ -101,19 +101,24 @@ FAIL src/App.test.tsx
             [36m>[39m
               [36m<div[39m
                 [33maria-labelledby[39m=[32m"tabs-:r0:--tab-0"[39m
-                [33mclass[39m=[32m"chakra-tabs__tab-panel css-a5mhaz"[39m
+                [33mclass[39m=[32m"chakra-tabs__tab-panel css-1qbr3jw"[39m
                 [33mid[39m=[32m"tabs-:r0:--tabpanel-0"[39m
                 [33mrole[39m=[32m"tabpanel"[39m
                 [33mtabindex[39m=[32m"0"[39m
               [36m>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"css-tyfxw"[39m
-                [36m>[39m
-                  [36m<p[39m
-                    [33mclass[39m=[32m"chakra-text css-7otdp4"[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"css-1s4xiq9"[39m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"css-1jex5os"[39m
                   [36m>[39m
-                    [0mHi, welcome to Talk to the Hand[0m
-                  [36m</p>[39m
+                    [36m<p[39m
+                      [33mclass[39m=[32m"chakra-text css-d1xbbw"[39m
+                    [36m>[39m
+                      [0mHi, welcome to Talk to the Hand[0m
+                    [36m</p>[39m
+                  [36m</div>[39m
                 [36m</div>[39m
               [36m</div>[39m
               [36m<div[39m
@@ -309,7 +314,7 @@ go away.[0m
 -----------------------|---------|----------|---------|---------|-------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------|---------|----------|---------|---------|-------------------
-All files              |   12.04 |        0 |   23.33 |   12.19 |                   
+All files              |   12.82 |        0 |   24.13 |   12.98 |                   
  About.tsx             |     100 |      100 |     100 |     100 |                   
  App.tsx               |     100 |      100 |     100 |     100 |                   
  ColorModeSwitcher.tsx |       0 |      100 |       0 |       0 | 12-17             
@@ -317,7 +322,6 @@ All files              |   12.04 |        0 |   23.33 |   12.19 |
  Dictaphone.tsx        |       0 |        0 |       0 |       0 | 4-24              
  Home.tsx              |     100 |      100 |     100 |     100 |                   
  Learn.tsx             |     100 |      100 |     100 |     100 |                   
- Logo.tsx              |       0 |        0 |       0 |       0 | 11-23             
  index.tsx             |       0 |        0 |     100 |       0 | 9-28              
  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
  serviceWorker.ts      |       0 |        0 |       0 |       0 | 13-143            
@@ -326,5 +330,5 @@ All files              |   12.04 |        0 |   23.33 |   12.19 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.571 s
+Time:        3.484 s
 Ran all test suites.
