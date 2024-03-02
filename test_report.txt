@@ -20,7 +20,7 @@ FAIL src/App.test.tsx
       at Object.<anonymous> (node_modules/react-speech-recognition/lib/SpeechRecognition.js:16:50)
       at Object.<anonymous> (node_modules/react-speech-recognition/lib/index.js:16:50)
       at Object.<anonymous> (src/Dictaphone.tsx:2:1)
-      at Object.<anonymous> (src/App.tsx:14:1)
+      at Object.<anonymous> (src/App.tsx:15:1)
       at Object.<anonymous> (src/App.test.tsx:4:1)
       at TestScheduler.scheduleTests (node_modules/@jest/core/build/TestScheduler.js:333:13)
       at runJest (node_modules/@jest/core/build/runJest.js:404:19)
@@ -43,10 +43,12 @@ go away.[0m
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------|---------|----------|---------|---------|-------------------
 All files              |       0 |        0 |       0 |       0 |                   
- App.tsx               |       0 |      100 |       0 |       0 | 16-17             
+ App.tsx               |       0 |      100 |       0 |       0 | 18-19             
  ColorModeSwitcher.tsx |       0 |      100 |       0 |       0 | 12-17             
  Dictaphone.tsx        |       0 |        0 |       0 |       0 | 4-24              
+ Home.tsx              |       0 |      100 |       0 |       0 | 5                 
  Logo.tsx              |       0 |        0 |       0 |       0 | 11-23             
+ Navbar.tsx            |       0 |      100 |       0 |       0 | 5                 
  index.tsx             |       0 |        0 |     100 |       0 | 9-28              
  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
  serviceWorker.ts      |       0 |        0 |       0 |       0 | 13-143            
@@ -55,5 +57,5 @@ All files              |       0 |        0 |       0 |       0 |
 Test Suites: 1 failed, 1 total
 Tests:       0 total
 Snapshots:   0 total
-Time:        3.259 s
+Time:        3.297 s
 Ran all test suites.

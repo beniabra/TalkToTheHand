@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.js": "/TalkToTheHand/static/js/main.449ba0f7.js",
+    "main.js": "/TalkToTheHand/static/js/main.6d7b5013.js",
     "static/js/453.db3e7779.chunk.js": "/TalkToTheHand/static/js/453.db3e7779.chunk.js",
-    "static/media/logo.svg": "/TalkToTheHand/static/media/logo.034ef726eb08f413c8e9ff1b0abe7414.svg",
     "index.html": "/TalkToTheHand/index.html",
-    "main.449ba0f7.js.map": "/TalkToTheHand/static/js/main.449ba0f7.js.map",
+    "main.6d7b5013.js.map": "/TalkToTheHand/static/js/main.6d7b5013.js.map",
     "453.db3e7779.chunk.js.map": "/TalkToTheHand/static/js/453.db3e7779.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.449ba0f7.js"
+    "static/js/main.6d7b5013.js"
   ]
 }
