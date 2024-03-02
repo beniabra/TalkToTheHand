@@ -21,7 +21,7 @@ import { About } from "./About";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <Box textAlign="center" fontSize="xl" backgroundColor="#d9fff7">
+    <Box textAlign="center" fontSize="xl" backgroundColor="#fffff">
 
       <Tabs variant='soft-rounded' colorScheme='teal'>
         <Flex
@@ -47,7 +47,7 @@ export const App = () => (
         </Flex>
 
         <TabPanels>
-          <TabPanel>
+          <TabPanel padding="0px">
             <Home></Home>
           </TabPanel>
           <TabPanel>
