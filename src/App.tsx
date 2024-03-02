@@ -12,8 +12,10 @@ import {
 } from "@chakra-ui/react"
 //import { ColorModeSwitcher } from "./ColorModeSwitcher"
 //import { Logo } from "./Logo"
-import Dictaphone from './Dictaphone';
 import { Home } from "./Home";
+import { Converter } from "./Converter";
+import { Learn } from "./Learn";
+import { About } from "./About";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
@@ -46,13 +48,15 @@ export const App = () => (
             <Home></Home>
           </TabPanel>
           <TabPanel>
-            <Dictaphone></Dictaphone>
+            <Converter></Converter>
           </TabPanel>
           <TabPanel>
             {/* Content for Learn ASL */}
+            <Learn></Learn>
           </TabPanel>
           <TabPanel>
             {/* Content for About */}
+            <About></About>
           </TabPanel>
         </TabPanels>
       </Tabs>
