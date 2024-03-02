@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (228 ms)
+  ✕ renders learn react link (224 ms)
 
   ● renders learn react link
 
@@ -24,67 +24,76 @@ FAIL src/App.test.tsx
               [33mclass[39m=[32m"css-1onerge"[39m
             [36m>[39m
               [36m<div[39m
+                [33mclass[39m=[32m"css-a4u4id"[39m
+              [36m>[39m
+                [36m<img[39m
+                  [33malt[39m=[32m"Logo"[39m
+                  [33mclass[39m=[32m"chakra-image css-1o46oru"[39m
+                  [33msrc[39m=[32m"hand-waving.png"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div[39m
                 [33maria-orientation[39m=[32m"horizontal"[39m
                 [33mclass[39m=[32m"chakra-tabs__tablist css-14z2wyy"[39m
                 [33mrole[39m=[32m"tablist"[39m
+                [33mstyle[39m=[32m"margin-left: auto;"[39m
               [36m>[39m
                 [36m<div[39m
-                  [33mclass[39m=[32m"css-a4u4id"[39m
+                  [33mclass[39m=[32m"css-12dmjen"[39m
                 [36m>[39m
-                  [0mLogo[0m
+                  [36m<button[39m
+                    [33maria-controls[39m=[32m"tabs-:r0:--tabpanel-0"[39m
+                    [33maria-disabled[39m=[32m"false"[39m
+                    [33maria-selected[39m=[32m"true"[39m
+                    [33mclass[39m=[32m"chakra-tabs__tab css-pwjsnb"[39m
+                    [33mdata-index[39m=[32m"0"[39m
+                    [33mid[39m=[32m"tabs-:r0:--tab-0"[39m
+                    [33mrole[39m=[32m"tab"[39m
+                    [33mtabindex[39m=[32m"0"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mHome[0m
+                  [36m</button>[39m
+                  [36m<button[39m
+                    [33maria-controls[39m=[32m"tabs-:r0:--tabpanel-1"[39m
+                    [33maria-disabled[39m=[32m"false"[39m
+                    [33maria-selected[39m=[32m"false"[39m
+                    [33mclass[39m=[32m"chakra-tabs__tab css-pwjsnb"[39m
+                    [33mdata-index[39m=[32m"1"[39m
+                    [33mid[39m=[32m"tabs-:r0:--tab-1"[39m
+                    [33mrole[39m=[32m"tab"[39m
+                    [33mtabindex[39m=[32m"-1"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mSpeech to ASL Converter[0m
+                  [36m</button>[39m
+                  [36m<button[39m
+                    [33maria-controls[39m=[32m"tabs-:r0:--tabpanel-2"[39m
+                    [33maria-disabled[39m=[32m"false"[39m
+                    [33maria-selected[39m=[32m"false"[39m
+                    [33mclass[39m=[32m"chakra-tabs__tab css-pwjsnb"[39m
+                    [33mdata-index[39m=[32m"2"[39m
+                    [33mid[39m=[32m"tabs-:r0:--tab-2"[39m
+                    [33mrole[39m=[32m"tab"[39m
+                    [33mtabindex[39m=[32m"-1"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mLearn ASL[0m
+                  [36m</button>[39m
+                  [36m<button[39m
+                    [33maria-controls[39m=[32m"tabs-:r0:--tabpanel-3"[39m
+                    [33maria-disabled[39m=[32m"false"[39m
+                    [33maria-selected[39m=[32m"false"[39m
+                    [33mclass[39m=[32m"chakra-tabs__tab css-pwjsnb"[39m
+                    [33mdata-index[39m=[32m"3"[39m
+                    [33mid[39m=[32m"tabs-:r0:--tab-3"[39m
+                    [33mrole[39m=[32m"tab"[39m
+                    [33mtabindex[39m=[32m"-1"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mAbout[0m
+                  [36m</button>[39m
                 [36m</div>[39m
-                [36m<button[39m
-                  [33maria-controls[39m=[32m"tabs-:r0:--tabpanel-0"[39m
-                  [33maria-disabled[39m=[32m"false"[39m
-                  [33maria-selected[39m=[32m"true"[39m
-                  [33mclass[39m=[32m"chakra-tabs__tab css-b16msl"[39m
-                  [33mdata-index[39m=[32m"0"[39m
-                  [33mid[39m=[32m"tabs-:r0:--tab-0"[39m
-                  [33mrole[39m=[32m"tab"[39m
-                  [33mtabindex[39m=[32m"0"[39m
-                  [33mtype[39m=[32m"button"[39m
-                [36m>[39m
-                  [0mHome[0m
-                [36m</button>[39m
-                [36m<button[39m
-                  [33maria-controls[39m=[32m"tabs-:r0:--tabpanel-1"[39m
-                  [33maria-disabled[39m=[32m"false"[39m
-                  [33maria-selected[39m=[32m"false"[39m
-                  [33mclass[39m=[32m"chakra-tabs__tab css-b16msl"[39m
-                  [33mdata-index[39m=[32m"1"[39m
-                  [33mid[39m=[32m"tabs-:r0:--tab-1"[39m
-                  [33mrole[39m=[32m"tab"[39m
-                  [33mtabindex[39m=[32m"-1"[39m
-                  [33mtype[39m=[32m"button"[39m
-                [36m>[39m
-                  [0mSpeech to ASL Converter[0m
-                [36m</button>[39m
-                [36m<button[39m
-                  [33maria-controls[39m=[32m"tabs-:r0:--tabpanel-2"[39m
-                  [33maria-disabled[39m=[32m"false"[39m
-                  [33maria-selected[39m=[32m"false"[39m
-                  [33mclass[39m=[32m"chakra-tabs__tab css-b16msl"[39m
-                  [33mdata-index[39m=[32m"2"[39m
-                  [33mid[39m=[32m"tabs-:r0:--tab-2"[39m
-                  [33mrole[39m=[32m"tab"[39m
-                  [33mtabindex[39m=[32m"-1"[39m
-                  [33mtype[39m=[32m"button"[39m
-                [36m>[39m
-                  [0mLearn ASL[0m
-                [36m</button>[39m
-                [36m<button[39m
-                  [33maria-controls[39m=[32m"tabs-:r0:--tabpanel-3"[39m
-                  [33maria-disabled[39m=[32m"false"[39m
-                  [33maria-selected[39m=[32m"false"[39m
-                  [33mclass[39m=[32m"chakra-tabs__tab css-b16msl"[39m
-                  [33mdata-index[39m=[32m"3"[39m
-                  [33mid[39m=[32m"tabs-:r0:--tab-3"[39m
-                  [33mrole[39m=[32m"tab"[39m
-                  [33mtabindex[39m=[32m"-1"[39m
-                  [33mtype[39m=[32m"button"[39m
-                [36m>[39m
-                  [0mAbout[0m
-                [36m</button>[39m
               [36m</div>[39m
             [36m</nav>[39m
             [36m<div[39m
@@ -300,7 +309,7 @@ go away.[0m
 -----------------------|---------|----------|---------|---------|-------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------|---------|----------|---------|---------|-------------------
-All files              |    11.9 |        0 |   22.58 |   12.04 |                   
+All files              |   12.04 |        0 |   23.33 |   12.19 |                   
  About.tsx             |     100 |      100 |     100 |     100 |                   
  App.tsx               |     100 |      100 |     100 |     100 |                   
  ColorModeSwitcher.tsx |       0 |      100 |       0 |       0 | 12-17             
@@ -309,7 +318,6 @@ All files              |    11.9 |        0 |   22.58 |   12.04 |
  Home.tsx              |     100 |      100 |     100 |     100 |                   
  Learn.tsx             |     100 |      100 |     100 |     100 |                   
  Logo.tsx              |       0 |        0 |       0 |       0 | 11-23             
- Navbar.tsx            |       0 |      100 |       0 |       0 | 5                 
  index.tsx             |       0 |        0 |     100 |       0 | 9-28              
  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
  serviceWorker.ts      |       0 |        0 |       0 |       0 | 13-143            
@@ -318,5 +326,5 @@ All files              |    11.9 |        0 |   22.58 |   12.04 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.572 s
+Time:        3.501 s
 Ran all test suites.
