@@ -2,42 +2,61 @@ import * as React from "react"
 import {
   ChakraProvider,
   Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
   theme,
+  TabPanels,
+  TabList,
+  Tabs,
+  Tab,
+  TabPanel,
+  Flex,
 } from "@chakra-ui/react"
-import { ColorModeSwitcher } from "./ColorModeSwitcher"
-import { Logo } from "./Logo"
+//import { ColorModeSwitcher } from "./ColorModeSwitcher"
+//import { Logo } from "./Logo"
 import Dictaphone from './Dictaphone';
+import { Home } from "./Home";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <Box textAlign="center" fontSize="xl">
-      <Grid minH="100vh" p={3}>
-        <ColorModeSwitcher justifySelf="flex-end" />
-        <VStack spacing={8}>
-          <Logo h="40vmin" pointerEvents="none" />
-          <Text>
-            Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
-          </Text>
-          <div>
-            <h1>Speech to Text:</h1>
-            <Dictaphone />
-          </div>
-          <Link
-            color="teal.500"
-            href="https://chakra-ui.com"
-            fontSize="2xl"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn Chakra
-          </Link>
-        </VStack>
-      </Grid>
+    <Box textAlign="center" fontSize="xl" backgroundColor="#d9fff7">
+
+      <Tabs variant='soft-rounded' colorScheme='white'>
+        <Flex
+              as="nav"
+              align="center"
+              justify="space-between"
+              padding="1rem 1rem"
+              //bgGradient="linear(to-r, teal.500, purple.500)"
+              bgGradient="linear(to-b, #167875, #d9fff7)"
+              color="white"
+        >
+          <TabList paddingTop="4" paddingBottom="4" color="white">
+            <Flex align="center" ml={5} mr={10}>
+              Logo
+            </Flex>
+            
+              <Tab color="#ffffff">Home</Tab>
+              <Tab color="#ffffff">Speech to ASL Converter</Tab>
+              <Tab color="#ffffff">Learn ASL</Tab>
+              <Tab color="#ffffff">About</Tab>
+          </TabList>
+        </Flex>
+
+        <TabPanels>
+          <TabPanel>
+            <Home></Home>
+          </TabPanel>
+          <TabPanel>
+            <Dictaphone></Dictaphone>
+          </TabPanel>
+          <TabPanel>
+            {/* Content for Learn ASL */}
+          </TabPanel>
+          <TabPanel>
+            {/* Content for About */}
+          </TabPanel>
+        </TabPanels>
+      </Tabs>
+      
     </Box>
   </ChakraProvider>
 )
