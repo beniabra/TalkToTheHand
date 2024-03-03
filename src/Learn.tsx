@@ -3,29 +3,44 @@ import { Grid, GridItem, TabList, Text, Button, SimpleGrid, Card, CardBody, Box 
 import wordsData from "../src/data/words.json"
 import { Word } from "../src/interface/word"
 import ReactCardFlip from 'react-card-flip';
-
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 const { WORDS }: Record<string, Word[]> = wordsData as Record<string, Word[]>;
 
 export function Learn() {
 
-  const [title, setTitle] = useState<string>('Select a lesson');
+  const [title, setTitle] = useState<string>('Alphabet');
   const [allWords] = useState<Word[]>(WORDS);
-  const [currentWords, setCurrentWords] = useState<Word[]>([]);
+  const [currentWords, setCurrentWords] = useState<Word[]>(allWords.filter(
+    (word: Word): boolean =>
+      word.category === title
+  ));
   const [isFlipped, setIsFlipped] = useState<boolean>(false);
+  const [currentCardIndex, setCurrentCardIndex] = useState<number>(0);
   
   function flipCard() {
     setIsFlipped(!isFlipped);
   }
 
+  const handleNextCard = () => {
+    if (currentCardIndex < currentWords.length)
+    setCurrentCardIndex((prevIndex) => (prevIndex + 1) % currentWords.length);
+  };
+
+  const handlePrevCard = () => {
+    if (currentCardIndex > 0) {
+    setCurrentCardIndex((prevIndex) => (prevIndex - 1) % currentWords.length);
+    } else {
+      setCurrentCardIndex((prevIndex) => currentWords.length - 1);
+    }
+  }
+
   const onClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     const buttonName = event.currentTarget.name
     setTitle(buttonName);
-    setCurrentWords(
-      allWords.filter(
-        (word: Word): boolean =>
-          word.category === title
-      )
-    );
+    setCurrentCardIndex(0);
+    setCurrentWords((prevWords: Word[]) => {
+      return allWords.filter((word: Word) => word.category === buttonName);
+    });
   };
 
     return (
@@ -73,7 +88,22 @@ export function Learn() {
           {title}
         </GridItem>
         <GridItem pl='2' bg='teal.100' area={'footer'}>
-          <Box bg='teal.100' w='100%' p={4} color='white'>
+        <SimpleGrid columns={2} spacing={5}>
+          <Card  onClick={flipCard} >              
+             <ReactCardFlip containerStyle={{ height: '275px' }} isFlipped={isFlipped} flipDirection="horizontal">
+              <CardBody>
+                  <img  src={require('./images/' + currentWords[currentCardIndex].image)} alt={currentWords[currentCardIndex].name}></img>
+              </CardBody>
+              <CardBody>
+                <b>{currentWords[currentCardIndex].name}</b>
+              </CardBody>
+            </ReactCardFlip> 
+          </Card>
+          </SimpleGrid>
+          <Button onClick={handlePrevCard}><FaArrowLeft /> </Button>
+          <Button onClick={handleNextCard}><FaArrowRight /></Button>
+
+          {/* <Box bg='teal.100' w='100%' p={4} color='white'>
             <Button onClick={flipCard}>Flip Cards</Button>
           </Box>
           <SimpleGrid columns={4} spacing={5}>
@@ -89,7 +119,7 @@ export function Learn() {
                 </ReactCardFlip>
               </Card>
             ))}
-          </SimpleGrid>
+          </SimpleGrid> */}
         </GridItem>
       </Grid>
       </>
