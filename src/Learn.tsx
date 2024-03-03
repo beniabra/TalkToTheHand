@@ -1,11 +1,28 @@
 import React, { useState } from 'react';
 import { Grid, GridItem, TabList, Text, Button } from '@chakra-ui/react';
+import wordsData from "../src/data/words.json"
+import { Word } from "../src/interface/word"
+import { words } from 'lodash';
+
+const { WORDS }: Record<string, Word[]> = wordsData as Record<string, Word[]>;
 
 export function Learn() {
 
   const [title, setTitle] = useState<string>('Select a lesson');
   const [content, setContent] = useState<string>('');
-
+  const [allWords, setAllWords] = useState<Word[]>(WORDS);
+  const [currentWords, setCurrentWords] = useState<Word[]>([]);
+  const [isHand, setIsHand] = useState<boolean>(true);
+  const [currentCardIndex, setCurrentCardIndex] = useState<number>(0);
+  function filter() {
+    setCurrentWords(
+      allWords.filter(
+        (word: Word): boolean =>
+          word.category == title
+      )
+    );
+  }
+  
   const onClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     const buttonName = event.currentTarget.name
     setTitle(buttonName);
@@ -18,7 +35,7 @@ export function Learn() {
         templateAreas={`"nav main"
                         "nav footer"`}
         gridTemplateRows={'35px 1fr 30px'}
-        gridTemplateColumns={'190px 1fr'}
+        gridTemplateColumns={'150px 1fr'}
         
         gap='5'
         color='blackAlpha.700'
@@ -33,7 +50,6 @@ export function Learn() {
               <Button name="Basics" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Basics</Button>
               <Button name="People" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>People</Button>
               <Button name="Greetings" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Greetings</Button>
-              <Button name="Universal Signs" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Universal Signs</Button>
               <Button name="Emotions" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Emotions</Button>
               <Button name="Actions" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Actions</Button>
               <Button name="Time" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Time</Button>
