@@ -1,0 +1,344 @@
+{
+    "WORDS": [
+        {
+            "name": "a",
+            "category": "Alphabet",
+            "image": "alphabet/a.jpg"
+        },
+        {
+            "name": "b",
+            "category": "Alphabet",
+            "image": "alphabet/b.jpg"
+        },
+        {
+            "name": "c",
+            "category": "Alphabet",
+            "image": "alphabet/c.jpg"
+        },
+        {
+            "name": "d",
+            "category": "Alphabet",
+            "image": "alphabet/d.jpg"
+        },
+        {
+            "name": "e",
+            "category": "Alphabet",
+            "image": "alphabet/e.jpg"
+        },
+        {
+            "name": "f",
+            "category": "Alphabet",
+            "image": "alphabet/f.jpg"
+        },
+        {
+            "name": "g",
+            "category": "Alphabet",
+            "image": "alphabet/g.jpg"
+        },
+        {
+            "name": "h",
+            "category": "Alphabet",
+            "image": "alphabet/h.jpg"
+        },
+        {
+            "name": "i",
+            "category": "Alphabet",
+            "image": "alphabet/i.jpg"
+        },
+        {
+            "name": "j",
+            "category": "Alphabet",
+            "image": "alphabet/j.jpg"
+        },
+        {
+            "name": "k",
+            "category": "Alphabet",
+            "image": "alphabet/k.jpg"
+        },
+        {
+            "name": "l",
+            "category": "Alphabet",
+            "image": "alphabet/l.jpg"
+        },
+        {
+            "name": "m",
+            "category": "Alphabet",
+            "image": "alphabet/m.jpg"
+        },
+        {
+            "name": "n",
+            "category": "Alphabet",
+            "image": "alphabet/n.jpg"
+        },
+        {
+            "name": "o",
+            "category": "Alphabet",
+            "image": "alphabet/o.jpg"
+        },
+        {
+            "name": "p",
+            "category": "Alphabet",
+            "image": "alphabet/p.jpg"
+        },
+        {
+            "name": "q",
+            "category": "Alphabet",
+            "image": "alphabet/q.jpg"
+        },
+        {
+            "name": "r",
+            "category": "Alphabet",
+            "image": "alphabet/r.jpg"
+        },
+        {
+            "name": "s",
+            "category": "Alphabet",
+            "image": "alphabet/s.jpg"
+        },
+        {
+            "name": "t",
+            "category": "Alphabet",
+            "image": "alphabet/t.jpg"
+        },
+        {
+            "name": "u",
+            "category": "Alphabet",
+            "image": "alphabet/u.jpg"
+        },
+        {
+            "name": "v",
+            "category": "Alphabet",
+            "image": "alphabet/v.jpg"
+        },
+        {
+            "name": "w",
+            "category": "Alphabet",
+            "image": "alphabet/w.jpg"
+        },
+        {
+            "name": "x",
+            "category": "Alphabet",
+            "image": "alphabet/x.jpg"
+        },
+        {
+            "name": "y",
+            "category": "Alphabet",
+            "image": "alphabet/y.jpg"
+        },
+        {
+            "name": "z",
+            "category": "Alphabet",
+            "image": "alphabet/z.jpg"
+        },
+        {
+            "name": "0",
+            "category": "Numbers------------------------------",
+            "image": "numbers/0.jpg"
+        },
+        {
+            "name": "1",
+            "category": "Numbers",
+            "image": "numbers/1.jpg"
+        },
+        {
+            "name": "2",
+            "category": "Numbers",
+            "image": "numbers/2.jpg"
+        },
+        {
+            "name": "3",
+            "category": "Numbers",
+            "image": "numbers/3.jpg"
+        },
+        {
+            "name": "4",
+            "category": "Numbers",
+            "image": "numbers/4.jpg"
+        },
+        {
+            "name": "5",
+            "category": "Numbers",
+            "image": "numbers/5.jpg"
+        },
+        {
+            "name": "6",
+            "category": "Numbers",
+            "image": "numbers/6.jpg"
+        },
+        {
+            "name": "7",
+            "category": "Numbers",
+            "image": "numbers/7.jpg"
+        },
+        {
+            "name": "8",
+            "category": "Numbers",
+            "image": "numbers/8.jpg"
+        },
+        {
+            "name": "9",
+            "category": "Numbers",
+            "image": "numbers/9.jpg"
+        },
+        {
+            "name": "bathroom",
+            "category": "Basics------------------------------",
+            "image": "basic/bathroom.jpg"
+        },
+        {
+            "name": "brother",
+            "category": "Basics",
+            "image": "basic/brother.jpg"
+        },
+        {
+            "name": "dad",
+            "category": "Basics",
+            "image": "basic/dad.jpg"
+        },
+        {
+            "name": "done",
+            "category": "Basics",
+            "image": "basic/done.jpg"
+        },
+        {
+            "name": "dont",
+            "category": "Basics",
+            "image": "basic/dont.jpg"
+        },
+        {
+            "name": "eat",
+            "category": "Basics",
+            "image": "basic/eat.jpg"
+        },
+        {
+            "name": "friends",
+            "category": "Basics",
+            "image": "basic/friends.jpg"
+        },
+        {
+            "name": "go",
+            "category": "Basics",
+            "image": "basic/go.jpg"
+        },
+        {
+            "name": "hello",
+            "category": "Basics",
+            "image": "basic/hello.jpg"
+        },
+        {
+            "name": "help",
+            "category": "Basics",
+            "image": "basic/help.jpg"
+        },
+        {
+            "name": "how",
+            "category": "Basics",
+            "image": "basic/how.jpg"
+        },
+        {
+            "name": "hungry",
+            "category": "Basics",
+            "image": "basic/hungry.jpg"
+        },
+        {
+            "name": "like",
+            "category": "Basics",
+            "image": "basic/like.jpg"
+        },
+        {
+            "name": "me",
+            "category": "Basics",
+            "image": "basic/me.jpg"
+        },
+        {
+            "name": "mom",
+            "category": "Basics",
+            "image": "basic/mom.jpg"
+        },
+        {
+            "name": "more",
+            "category": "Basics",
+            "image": "basic/more.jpg"
+        },
+        {
+            "name": "name",
+            "category": "Basics",
+            "image": "basic/name.jpg"
+        },
+        {
+            "name": "no",
+            "category": "Basics",
+            "image": "basic/no.jpg"
+        },
+        {
+            "name": "play",
+            "category": "Basics",
+            "image": "basic/play.jpg"
+        },
+        {
+            "name": "please",
+            "category": "Basics",
+            "image": "basic/please.jpg"
+        },
+        {
+            "name": "sister",
+            "category": "Basics",
+            "image": "basic/sister.jpg"
+        },
+        {
+            "name": "stop",
+            "category": "Basics",
+            "image": "basic/stop.jpg"
+        },
+        {
+            "name": "thank you",
+            "category": "Basics",
+            "image": "basic/thank-you.jpg"
+        },
+        {
+            "name": "want",
+            "category": "Basics",
+            "image": "basic/want.jpg"
+        },
+        {
+            "name": "water",
+            "category": "Basics",
+            "image": "basic/water.jpg"
+        },
+        {
+            "name": "what",
+            "category": "Basics",
+            "image": "basic/what.jpg"
+        },
+        {
+            "name": "when",
+            "category": "Basics",
+            "image": "basic/when.jpg"
+        },
+        {
+            "name": "where",
+            "category": "Basics",
+            "image": "basic/where.jpg"
+        },
+        {
+            "name": "who",
+            "category": "Basics",
+            "image": "basic/who.jpg"
+        },
+        {
+            "name": "why",
+            "category": "Basics",
+            "image": "basic/why.jpg"
+        },
+        {
+            "name": "yes",
+            "category": "Basics",
+            "image": "basic/yes.jpg"
+        },
+        {
+            "name": "you",
+            "category": "Basics",
+            "image": "basic/you.jpg"
+        }
+    ]
+}
