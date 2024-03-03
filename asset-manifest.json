@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/TalkToTheHand/static/js/main.6385a546.js",
+    "main.js": "/TalkToTheHand/static/js/main.3e0d2a08.js",
     "static/js/453.e466e223.chunk.js": "/TalkToTheHand/static/js/453.e466e223.chunk.js",
     "static/media/brother.jpg": "/TalkToTheHand/static/media/brother.7933ea8421caa8b4a00e.jpg",
     "static/media/go.jpg": "/TalkToTheHand/static/media/go.a0eee892b2063496921a.jpg",
@@ -82,10 +82,10 @@
     "static/media/more.jpg": "/TalkToTheHand/static/media/more.2f4e229d88b557eade36.jpg",
     "static/media/help.jpg": "/TalkToTheHand/static/media/help.9e1498189e966ed5088b.jpg",
     "index.html": "/TalkToTheHand/index.html",
-    "main.6385a546.js.map": "/TalkToTheHand/static/js/main.6385a546.js.map",
+    "main.3e0d2a08.js.map": "/TalkToTheHand/static/js/main.3e0d2a08.js.map",
     "453.e466e223.chunk.js.map": "/TalkToTheHand/static/js/453.e466e223.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.6385a546.js"
+    "static/js/main.3e0d2a08.js"
   ]
 }
