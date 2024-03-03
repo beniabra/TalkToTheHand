@@ -14,6 +14,7 @@
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
     "framer-motion": "^6.5.1",
+    "mdb-react-ui-kit": "^7.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^3.11.0",
