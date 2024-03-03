@@ -112,7 +112,7 @@ const Dictaphone = () => {
       <Box width="100%" py={3} textAlign="center"></Box>
 
       <Translate 
-        text={""}
+        text={text}
       ></Translate>
     </div>
   );
