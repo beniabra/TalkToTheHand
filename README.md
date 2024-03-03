@@ -1,59 +1,28 @@
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app).
+# Welcome to Talk to the Hand
 
-## Available Scripts
+## Inspiration
+Our inspiration initially came from a TikTok we saw about a deaf girl who was upset that people expected her to read their lips while they talked at her, when they didn't realize how difficult it was for her to do so. When it came time for this hackathon, we did some more research and realized that popular language-learning platforms like Duolingo and Babbel don’t support ASL learning. In addition, existing translators translate letter-by-letter instead of word-by-word.
 
-In the project directory, you can run:
+## What it does
+Talk to the Hand is a website that has a live text-to-ASL feature that translates speech / text to ASL and a learning ASL feature for people who want to learn ASL. Two qualities we focused on were accessibility and connectivity. Our website helps people with hearing impairments connect with others and vice versa.
 
-### `npm start`
+## How we built it
+We used React, TypeScript, and Chakra-UI / HTML & CSS in order to build our website. We used GitHub to collaborate and share the progress in our code. We also expanded our skillset by using multiple libraries: 
+- react-speech-recognition for speech-to-text conversion
+- react-visibility-sensor for animations on scroll
+- react-card-flip for flashcard animations
 
-Runs the app in the development mode.<br /> Open
-[http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Challenges we ran into
+UI challenges
+One of the challenges we ran into was getting the ASL translator to convert from speech or text within the same text box. We decided to prioritize the overall functionality of the website, so we worked around the issue by making the convert from speech a separate area from the text. Another issue we ran into was figuring out how to change state with react/typescript and modifying arrays without crashing the website.
 
-The page will reload if you make edits.<br /> You will also see any lint errors
-in the console.
+## Accomplishments that we're proud of
+We are proud of our live text-to-ASL feature that translates speech / text to ASL. We used the react-speech-recognition library and a growing dictionary of ASL images to make this possible.
 
-### `npm test`
+## What we learned
+We learned several things while working on this project including: effectively incorporating react libraries into our program, how to split code amongst ourselves and focus on our strengths effectively, and how to make the user experience more accessible.  We also learned how to use animations and transitions, and how to design a clean layout to make our website design more aesthetically pleasing. Along the way, we also picked up a little ASL.
 
-Launches the test runner in the interactive watch mode.<br /> See the section
-about
-[running tests](https://facebook.github.io/create-react-app/docs/running-tests)
-for more information.
+## What's next for Talk to the Hand
+Our current dataset of word signs is very limited, so we would like to add more commonly used words to the dataset. We also recognize that the sentence structure in ASL varies from that of English, so we would like to update our algorithm to reflect that. In the future, we would like to add more to the learning hub by expanding each lesson set and possibly including a quiz mode. 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br /> It correctly bundles
-React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br /> Your app is
-ready to be deployed!
-
-See the section about
-[deployment](https://facebook.github.io/create-react-app/docs/deployment) for
-more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can
-`eject` at any time. This command will remove the single build dependency from
-your project.
-
-Instead, it will copy all the configuration files and the transitive
-dependencies (webpack, Babel, ESLint, etc) right into your project so you have
-full control over them. All of the commands except `eject` will still work, but
-they will point to the copied scripts so you can tweak them. At this point
-you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for
-small and middle deployments, and you shouldn’t feel obligated to use this
-feature. However we understand that this tool wouldn’t be useful if you couldn’t
-customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the
-[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
