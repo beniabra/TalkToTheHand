@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Grid, GridItem, TabList, Text, Button } from '@chakra-ui/react';
 import wordsData from "../src/data/words.json"
 import { Word } from "../src/interface/word"
-import { words } from 'lodash';
 
 const { WORDS }: Record<string, Word[]> = wordsData as Record<string, Word[]>;
 
