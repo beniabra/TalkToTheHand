@@ -1,31 +1,31 @@
 import React, { useState } from 'react';
-import { Grid, GridItem, TabList, Text, Button } from '@chakra-ui/react';
+import { Grid, GridItem, TabList, Text, Button, SimpleGrid, Card, CardBody, Box } from '@chakra-ui/react';
 import wordsData from "../src/data/words.json"
 import { Word } from "../src/interface/word"
+import ReactCardFlip from 'react-card-flip';
 
 const { WORDS }: Record<string, Word[]> = wordsData as Record<string, Word[]>;
 
 export function Learn() {
 
   const [title, setTitle] = useState<string>('Select a lesson');
-  const [content, setContent] = useState<string>('');
-  const [allWords, setAllWords] = useState<Word[]>(WORDS);
+  const [allWords] = useState<Word[]>(WORDS);
   const [currentWords, setCurrentWords] = useState<Word[]>([]);
-  const [isHand, setIsHand] = useState<boolean>(true);
-  const [currentCardIndex, setCurrentCardIndex] = useState<number>(0);
-  function filter() {
-    setCurrentWords(
-      allWords.filter(
-        (word: Word): boolean =>
-          word.category == title
-      )
-    );
-  }
+  const [isFlipped, setIsFlipped] = useState<boolean>(false);
   
+  function flipCard() {
+    setIsFlipped(!isFlipped);
+  }
+
   const onClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     const buttonName = event.currentTarget.name
     setTitle(buttonName);
-    setContent("Coming Soon")
+    setCurrentWords(
+      allWords.filter(
+        (word: Word): boolean =>
+          word.category === title
+      )
+    );
   };
 
     return (
@@ -67,7 +67,23 @@ export function Learn() {
           {title}
         </GridItem>
         <GridItem pl='2' bg='teal.100' area={'footer'}>
-          {content}
+          <Box bg='teal.100' w='100%' p={4} color='white'>
+            <Button onClick={flipCard}>Flip Card</Button>
+          </Box>
+          <SimpleGrid columns={4} spacing={5}>
+            {currentWords.map(currentWords => (
+              <Card>
+                <ReactCardFlip containerStyle={{ height: '275px' }} isFlipped={isFlipped} flipDirection="horizontal">
+                  <CardBody>
+                      <img  src={require('./images/' + currentWords.image)} alt={currentWords.name}></img>
+                  </CardBody>
+                  <CardBody>
+                    <b>{currentWords.name}</b>
+                  </CardBody>
+                </ReactCardFlip>
+              </Card>
+            ))}
+          </SimpleGrid>
         </GridItem>
       </Grid>
       </>
