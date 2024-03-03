@@ -132,7 +132,7 @@
         },
         {
             "name": "0",
-            "category": "Numbers------------------------------",
+            "category": "Numbers",
             "image": "numbers/0.jpg"
         },
         {
@@ -182,7 +182,7 @@
         },
         {
             "name": "bathroom",
-            "category": "Basics------------------------------",
+            "category": "Basics",
             "image": "basic/bathroom.jpg"
         },
         {
