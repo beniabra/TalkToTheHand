@@ -114,6 +114,7 @@ const Dictaphone = () => {
       <Translate 
         text={text}
       ></Translate>
+      
     </div>
   );
 };
