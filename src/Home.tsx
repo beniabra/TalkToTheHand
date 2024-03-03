@@ -122,7 +122,6 @@ export function Home() {
                     }
                 </VisibilitySensor>
             </div>
-            <Box width="100%" py={10} textAlign="center"></Box>
         </div>
     );
 };

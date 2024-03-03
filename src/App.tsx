@@ -63,7 +63,9 @@ export const App = () => (
           </TabPanel>
         </TabPanels>
       </Tabs>
-      
+        <Box width="100%" py={8} textAlign="center" backgroundColor="#efddcc">
+            Made with 🤟 by Aparna Roy, Sneha Nangelimalil, and Benita Abraham
+        </Box>
     </Box>
   </ChakraProvider>
 )
