@@ -87,12 +87,12 @@ const Dictaphone = () => {
       />
       <Box width="100%" py={3} textAlign="center"></Box>
       <Flex>
-        <Button marginLeft={"5px"} colorScheme='teal' onClick={() => {setText(""); resetTranscript()}}>
-          Reset&nbsp;&nbsp;<FaUndoAlt />
-        </Button>
-        &nbsp;&nbsp;&nbsp;
         <Button marginLeft={"5px"} colorScheme='teal' onClick={handleEdit}>
           <FaArrowDown />
+        </Button>
+        &nbsp;&nbsp;&nbsp;
+        <Button marginLeft={"5px"} colorScheme='teal' onClick={() => {setText(""); resetTranscript()}}>
+        Reset&nbsp;&nbsp;<FaUndoAlt />
         </Button>
       </Flex>
       <Box width="100%" py={3} textAlign="center"></Box>
