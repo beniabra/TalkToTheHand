@@ -42,13 +42,16 @@ export function Learn() {
       return allWords.filter((word: Word) => word.category === buttonName);
     });
   };
+  
+  const currentImage = currentWords[currentCardIndex]?.image;
+  const imagePath = currentImage ? require('./images/' + currentImage) : null;
 
     return (
       <>
       <Grid
         templateAreas={`"nav main"
                         "nav footer"`}
-        gridTemplateRows={'35px 1fr 30px'}
+        gridTemplateRows={'65px 1fr 30px'}
         gridTemplateColumns={'150px 1fr'}
         
         gap='5'
@@ -85,22 +88,28 @@ export function Learn() {
           </TabList>
         </GridItem>
         <GridItem pl='2' bg='teal.200' area={'main'}>
-          {title}
+          <Box bg='teal.200' w='100%' p={4}>{title}</Box>
         </GridItem>
         <GridItem pl='2' bg='teal.100' area={'footer'}>
-        <SimpleGrid columns={2} spacing={5}>
-          <Card  onClick={flipCard} >              
-             <ReactCardFlip containerStyle={{ height: '275px' }} isFlipped={isFlipped} flipDirection="horizontal">
+        <Box bg='teal.550' w='100%' p={4}></Box>
+        
+        <SimpleGrid columns={3} spacing={5}>
+          <Card boxShadow="none" bg='teal.100'></Card>
+        <Card  onClick={flipCard}>              
+             <ReactCardFlip containerStyle={{ height: '250px' }} isFlipped={isFlipped} flipDirection="horizontal">
               <CardBody>
-                  <img  src={require('./images/' + currentWords[currentCardIndex].image)} alt={currentWords[currentCardIndex].name}></img>
+                  {imagePath && (<img  src={require('./images/' + currentWords[currentCardIndex].image)} alt={currentWords[currentCardIndex].name} style={{ borderRadius: '20px', height:'200px', display: 'inline-block' }}></img>)}
               </CardBody>
               <CardBody>
-                <b>{currentWords[currentCardIndex].name}</b>
+                <b>{imagePath && currentWords[currentCardIndex].name}</b>
               </CardBody>
             </ReactCardFlip> 
           </Card>
+          <Card boxShadow="none" bg='teal.100'></Card>
           </SimpleGrid>
+          <Box bg='teal.550' w='100%' p={4}></Box>
           <Button onClick={handlePrevCard}><FaArrowLeft /> </Button>
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <Button onClick={handleNextCard}><FaArrowRight /></Button>
 
           {/* <Box bg='teal.100' w='100%' p={4} color='white'>
