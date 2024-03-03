@@ -7,13 +7,13 @@ FAIL src/App.test.tsx
 
     ReferenceError: regeneratorRuntime is not defined
 
-      1 | import { Button, Grid, GridItem, Input, Textarea } from '@chakra-ui/react';
+      1 | import { Box, Button, Flex, Input, Textarea } from '@chakra-ui/react';
       2 | import React, { useState } from 'react';
     > 3 | import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
         | ^
       4 | import { Translate } from './Translate';
-      5 |
-      6 | const Dictaphone = () => {
+      5 | import { FaArrowDown } from 'react-icons/fa';
+      6 | import { FaUndoAlt } from 'react-icons/fa';
 
       at node_modules/react-speech-recognition/lib/RecognitionManager.js:247:61
       at node_modules/react-speech-recognition/lib/RecognitionManager.js:332:6
@@ -48,8 +48,8 @@ All files              |       0 |        0 |       0 |       0 |
  About.tsx             |       0 |      100 |       0 |       0 | 5                 
  App.tsx               |       0 |      100 |       0 |       0 | 22-23             
  ColorModeSwitcher.tsx |       0 |      100 |       0 |       0 | 12-17             
- Converter.tsx         |       0 |      100 |       0 |       0 | 9                 
- Dictaphone.tsx        |       0 |        0 |       0 |       0 | 6-54              
+ Converter.tsx         |       0 |      100 |       0 |       0 | 6                 
+ Dictaphone.tsx        |       0 |        0 |       0 |       0 | 8-104             
  Home.tsx              |       0 |        0 |       0 |       0 | 8-109             
  Learn.tsx             |       0 |      100 |       0 |       0 | 6-15              
  Translate.tsx         |       0 |      100 |       0 |       0 | 9-17              
@@ -61,5 +61,5 @@ All files              |       0 |        0 |       0 |       0 |
 Test Suites: 1 failed, 1 total
 Tests:       0 total
 Snapshots:   0 total
-Time:        3.961 s
+Time:        3.741 s
 Ran all test suites.
