@@ -11,6 +11,7 @@ const { WORDS }: Record<string, Word[]> =
   wordsData as Record<string, Word[]>;
 
 const DISCARDS : string[] = ["a", "an", "the", "in", "on", "at", "of", "is", "am", "are", "do", "does", "have", "has", "to"];
+const NUMBERS : string[] = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
 
 export interface TranslateProps {
     text: string
@@ -21,6 +22,27 @@ export function Translate({text}: TranslateProps): JSX.Element {
     const [allWords, setAllWords] = useState<Word[]>(WORDS);
 
     function parseString(toParse: string) {
+        if (NUMBERS.includes(toParse)){
+            if (toParse === "one"){
+                return "1";
+            } else if (toParse === "two"){
+                return "2";
+            } else if (toParse === "three"){
+                return "3";
+            } else if (toParse === "four"){
+                return "4";
+            } else if (toParse === "five"){
+                return "5";
+            } else if (toParse === "six"){
+                return "6";
+            } else if (toParse === "seven"){
+                return "7";
+            } else if (toParse === "eight"){
+                return "8";
+            } else if (toParse === "nine"){
+                return "9";
+            }
+        }
         if (DISCARDS.includes(toParse)){
             return "";
         } else {
@@ -44,11 +66,12 @@ export function Translate({text}: TranslateProps): JSX.Element {
         var newList = text.split(" ");
         var cleanedList = newList.map((word) => word.replace(/[,.?]/g, ''));
         var lowerCased = cleanedList.map((word) => word.toLowerCase());
+
         // let modifiedList: string[] = [];
         lowerCased.forEach((word) => {
             var lookFor = parseString(word);
-            if (allWords.find((curr: Word): boolean => curr.name === lookFor)){
-                var found = allWords.find((curr: Word): boolean => curr.name === lookFor);
+            if (allWords.find((curr: Word): boolean => curr.name === lookFor  || (lookFor.endsWith('s') && curr.name === lookFor.slice(0, -1)))){
+                var found = allWords.find((curr: Word): boolean => curr.name === lookFor  || (lookFor.endsWith('s') && curr.name === lookFor.slice(0, -1)));
                 console.log("found" + word);
                 // if (found) {
                 setWordList((prevWordList) => [...prevWordList, found!]);
@@ -70,10 +93,13 @@ export function Translate({text}: TranslateProps): JSX.Element {
     return (
       <div>
         <Button colorScheme="teal" onClick={splitText}>Translate</Button>
+        <Box width="100%" py={8} textAlign="center"></Box>
         <SimpleGrid columns={4} spacing={10}>{wordList.map((word) => 
         <div>
-            <Box><img  src={require('./images/' + word.image)} alt={word.name}></img> {word.name}</Box>
-            
+            <Box borderRadius="20px" overflow="hidden">
+                <img  src={require('./images/' + word.image)} alt={word.name} style={{ borderRadius: '20px', boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)', height:'200px', display: 'inline-block' }} ></img> 
+                <span style={{ display: 'block', textAlign: 'center' }}>{word.name}</span>
+            </Box>
         </div>)}
         </SimpleGrid>
         
