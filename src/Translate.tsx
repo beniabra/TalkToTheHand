@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Button } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { Word } from './interface/word';
@@ -12,7 +13,7 @@ export function Translate({text}: TranslateProps): JSX.Element {
 
     function splitText(){
         var newList = text.split(" ");
-        setWordList(newList.map((word) => word.replace(/[,\.]/g, '')));
+        setWordList(newList.map((word) => word.replace(/[,.]/g, '')));
         let modifiedList: string[] = [];
         wordList.forEach((word) => {
             if (allWords.find((curr: Word): boolean => curr.name === word)){
