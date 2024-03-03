@@ -47,7 +47,7 @@ export function About() {
               <Flex align="center" justify="center">
                 <Box>
                   <Grid gap={4} className="picture">
-                    <Image src="asl.webp" alt="Aparna" borderRadius="lg" height="300px" objectFit="cover" />
+                    <Image src="aparna.jpg" alt="Aparna" borderRadius="lg" height="300px" objectFit="cover" />
                     <div style={{ fontSize: '23px'}}>
                       <Box width="100%" py={1} textAlign="center"></Box>
                         Aparna Roy
@@ -59,7 +59,7 @@ export function About() {
               <Flex align="center" justify="center">
                 <Box>
                   <Grid gap={4} className="picture">
-                    <Image src="hand-waving.png" alt="Sneha" borderRadius="lg" height="300px" objectFit="cover" />
+                    <Image src="sneha.png" alt="Sneha" borderRadius="lg" height="300px" objectFit="cover" />
                     <div style={{ fontSize: '23px'}}>
                       <Box width="100%" py={1} textAlign="center"></Box>
                           Sneha Nangelimalil
@@ -71,7 +71,7 @@ export function About() {
               <Flex align="center" justify="center">
                 <Box>
                   <Grid gap={4} className="picture">
-                    <Image src="hand-waving.png" alt="Benita" borderRadius="lg" height="300px" objectFit="cover" />
+                    <Image src="benita.jpeg" alt="Benita" borderRadius="lg" height="300px" objectFit="cover" />
                     <div style={{ fontSize: '23px'}}>
                       <Box width="100%" py={1} textAlign="center"></Box>
                         Benita Abraham
