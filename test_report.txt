@@ -41,25 +41,28 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
------------------------|---------|----------|---------|---------|-------------------
-File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
------------------------|---------|----------|---------|---------|-------------------
-All files              |       0 |        0 |       0 |       0 |                   
- About.tsx             |       0 |      100 |       0 |       0 | 5                 
- App.tsx               |       0 |      100 |       0 |       0 | 22-23             
- ColorModeSwitcher.tsx |       0 |      100 |       0 |       0 | 12-17             
- Converter.tsx         |       0 |      100 |       0 |       0 | 6                 
- Dictaphone.tsx        |       0 |        0 |       0 |       0 | 8-104             
- Home.tsx              |       0 |        0 |       0 |       0 | 8-109             
- Learn.tsx             |       0 |      100 |       0 |       0 | 6-15              
- Translate.tsx         |       0 |      100 |       0 |       0 | 9-17              
- index.tsx             |       0 |        0 |     100 |       0 | 9-28              
- reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
- serviceWorker.ts      |       0 |        0 |       0 |       0 | 13-143            
- test-utils.tsx        |       0 |      100 |       0 |       0 | 5-10              
------------------------|---------|----------|---------|---------|-------------------
+------------------------|---------|----------|---------|---------|-------------------
+File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+------------------------|---------|----------|---------|---------|-------------------
+All files               |       0 |        0 |       0 |       0 |                   
+ src                    |       0 |        0 |       0 |       0 |                   
+  About.tsx             |       0 |      100 |       0 |       0 | 5                 
+  App.tsx               |       0 |      100 |       0 |       0 | 22-23             
+  ColorModeSwitcher.tsx |       0 |      100 |       0 |       0 | 12-17             
+  Converter.tsx         |       0 |      100 |       0 |       0 | 6                 
+  Dictaphone.tsx        |       0 |        0 |       0 |       0 | 8-104             
+  Home.tsx              |       0 |        0 |       0 |       0 | 8-109             
+  Learn.tsx             |       0 |      100 |       0 |       0 | 6-15              
+  Translate.tsx         |       0 |      100 |       0 |       0 | 9-17              
+  index.tsx             |       0 |        0 |     100 |       0 | 9-28              
+  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
+  serviceWorker.ts      |       0 |        0 |       0 |       0 | 13-143            
+  test-utils.tsx        |       0 |      100 |       0 |       0 | 5-10              
+ src/interface          |       0 |        0 |       0 |       0 |                   
+  word.ts               |       0 |        0 |       0 |       0 |                   
+------------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       0 total
 Snapshots:   0 total
-Time:        3.765 s
+Time:        3.759 s
 Ran all test suites.
