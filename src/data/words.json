@@ -339,6 +339,306 @@
             "name": "you",
             "category": "Basics",
             "image": "basic/you.jpg"
+        },
+        {
+            "name": "bathroom",
+            "category": "Basics",
+            "image": "basic/bathroom.jpg"
+        },
+        {
+            "name": "eat",
+            "category": "Basics",
+            "image": "basic/eat.jpg"
+        },
+        {
+            "name": "go",
+            "category": "Basics",
+            "image": "basic/go.jpg"
+        },
+        {
+            "name": "help",
+            "category": "Basics",
+            "image": "basic/help.jpg"
+        },
+        {
+            "name": "hungry",
+            "category": "Basics",
+            "image": "basic/hungry.jpg"
+        },
+        {
+            "name": "like",
+            "category": "Basics",
+            "image": "basic/like.jpg"
+        },
+        {
+            "name": "play",
+            "category": "Basics",
+            "image": "basic/play.jpg"
+        },
+        {
+            "name": "want",
+            "category": "Basics",
+            "image": "basic/want.jpg"
+        },
+        {
+            "name": "black",
+            "category": "Basics",
+            "image": "basic/black.jpg"
+        },
+        {
+            "name": "blue",
+            "category": "Basics",
+            "image": "basic/blue.jpg"
+        },
+        {
+            "name": "brown",
+            "category": "Basics",
+            "image": "basic/brown.jpg"
+        },
+        {
+            "name": "gray",
+            "category": "Basics",
+            "image": "basic/gray.jpg"
+        },
+        {
+            "name": "green",
+            "category": "Basics",
+            "image": "basic/green.jpg"
+        },
+        {
+            "name": "orange",
+            "category": "Basics",
+            "image": "basic/orange.jpg"
+        },
+        {
+            "name": "pink",
+            "category": "Basics",
+            "image": "basic/pink.jpg"
+        },
+        {
+            "name": "purple",
+            "category": "Basics",
+            "image": "basic/purple.jpg"
+        },
+        {
+            "name": "red",
+            "category": "Basics",
+            "image": "basic/red.jpg"
+        },
+        {
+            "name": "white",
+            "category": "Basics",
+            "image": "basic/white.jpg"
+        },
+        {
+            "name": "yellow",
+            "category": "Basics",
+            "image": "basic/yellow.jpg"
+        },
+        {
+            "name": "hello",
+            "category": "Basics",
+            "image": "basic/hello.jpg"
+        },
+        {
+            "name": "name",
+            "category": "Basics",
+            "image": "basic/name.jpg"
+        },
+        {
+            "name": "please",
+            "category": "Basics",
+            "image": "basic/please.jpg"
+        },
+        {
+            "name": "thank you",
+            "category": "Basics",
+            "image": "basic/thank-you.jpg"
+        },
+        {
+            "name": "brother",
+            "category": "Basics",
+            "image": "basic/brother.jpg"
+        },
+        {
+            "name": "dad",
+            "category": "Basics",
+            "image": "basic/dad.jpg"
+        },
+        {
+            "name": "friends",
+            "category": "Basics",
+            "image": "basic/friends.jpg"
+        },
+        {
+            "name": "me",
+            "category": "Basics",
+            "image": "basic/me.jpg"
+        },
+        {
+            "name": "mom",
+            "category": "Basics",
+            "image": "basic/mom.jpg"
+        },
+        {
+            "name": "sister",
+            "category": "Basics",
+            "image": "basic/sister.jpg"
+        },
+        {
+            "name": "you",
+            "category": "Basics",
+            "image": "basic/you.jpg"
+        },
+        {
+            "name": "bathroom",
+            "category": "Actions",
+            "image": "basic/bathroom.jpg"
+        },
+        {
+            "name": "eat",
+            "category": "Actions",
+            "image": "basic/eat.jpg"
+        },
+        {
+            "name": "go",
+            "category": "Actions",
+            "image": "basic/go.jpg"
+        },
+        {
+            "name": "help",
+            "category": "Actions",
+            "image": "basic/help.jpg"
+        },
+        {
+            "name": "hungry",
+            "category": "Actions",
+            "image": "basic/hungry.jpg"
+        },
+        {
+            "name": "like",
+            "category": "Actions",
+            "image": "basic/like.jpg"
+        },
+        {
+            "name": "play",
+            "category": "Actions",
+            "image": "basic/play.jpg"
+        },
+        {
+            "name": "want",
+            "category": "Actions",
+            "image": "basic/want.jpg"
+        },
+        {
+            "name": "black",
+            "category": "Colors",
+            "image": "basic/black.jpg"
+        },
+        {
+            "name": "blue",
+            "category": "Colors",
+            "image": "basic/blue.jpg"
+        },
+        {
+            "name": "brown",
+            "category": "Colors",
+            "image": "basic/brown.jpg"
+        },
+        {
+            "name": "gray",
+            "category": "Colors",
+            "image": "basic/gray.jpg"
+        },
+        {
+            "name": "green",
+            "category": "Colors",
+            "image": "basic/green.jpg"
+        },
+        {
+            "name": "orange",
+            "category": "Colors",
+            "image": "basic/orange.jpg"
+        },
+        {
+            "name": "pink",
+            "category": "Colors",
+            "image": "basic/pink.jpg"
+        },
+        {
+            "name": "purple",
+            "category": "Colors",
+            "image": "basic/purple.jpg"
+        },
+        {
+            "name": "red",
+            "category": "Colors",
+            "image": "basic/red.jpg"
+        },
+        {
+            "name": "white",
+            "category": "Colors",
+            "image": "basic/white.jpg"
+        },
+        {
+            "name": "yellow",
+            "category": "Colors",
+            "image": "basic/yellow.jpg"
+        },
+        {
+            "name": "hello",
+            "category": "Greetings",
+            "image": "basic/hello.jpg"
+        },
+        {
+            "name": "name",
+            "category": "Greetings",
+            "image": "basic/name.jpg"
+        },
+        {
+            "name": "please",
+            "category": "Greetings",
+            "image": "basic/please.jpg"
+        },
+        {
+            "name": "thank you",
+            "category": "Greetings",
+            "image": "basic/thank-you.jpg"
+        },
+        {
+            "name": "brother",
+            "category": "People",
+            "image": "basic/brother.jpg"
+        },
+        {
+            "name": "dad",
+            "category": "People",
+            "image": "basic/dad.jpg"
+        },
+        {
+            "name": "friends",
+            "category": "People",
+            "image": "basic/friends.jpg"
+        },
+        {
+            "name": "me",
+            "category": "People",
+            "image": "basic/me.jpg"
+        },
+        {
+            "name": "mom",
+            "category": "People",
+            "image": "basic/mom.jpg"
+        },
+        {
+            "name": "sister",
+            "category": "People",
+            "image": "basic/sister.jpg"
+        },
+        {
+            "name": "you",
+            "category": "People",
+            "image": "basic/you.jpg"
         }
     ]
 }
