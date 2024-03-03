@@ -1,5 +1,6 @@
 import { Button } from '@chakra-ui/react';
 import React, { useState } from 'react';
+import { Word } from './interface/word';
 
 export interface TranslateProps {
     text: string
@@ -13,14 +14,15 @@ export function Translate({text}: TranslateProps): JSX.Element {
         var newList = text.split(" ");
         setWordList(newList.map((word) => word.replace(/[,\.]/g, '')));
         let modifiedList: string[] = [];
-        for (var i = 0; i < wordList.length; i++) {
-            if (allWords.find((curr: string): boolean => curr.name === wordList[i])){
-                modifiedList = [...modifiedList, wordList[i]]
+        wordList.forEach((word) => {
+            if (allWords.find((curr: Word): boolean => curr.name === word)){
+                modifiedList = [...modifiedList, word]
             } else {
                 
-                modifiedList = [...modifiedList, ...wordList[i].split("")]
+                modifiedList = [...modifiedList, ...word.split("")]
             }
-        }
+        })
+            
         setWordList([...modifiedList]);
     }
 
