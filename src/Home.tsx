@@ -72,7 +72,7 @@ export function Home() {
                             <div className={isVisible ? "bounce" : ""}>
                                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '90px' }}>
                                     <div style={{ flex: 1, boxShadow: '0px 4px 6px rgba(0,0,0,0.3)' }}>
-                                        <img src="speech-to-ASL.jpg" alt="Speech to ASL" style={{ maxWidth: '100%', height: 'auto' }} />
+                                        <img src="speech-to-ASL.png" alt="Speech to ASL" style={{ maxWidth: '100%', height: 'auto' }} />
                                     </div>
                                     <div style={{ flex: 1, marginLeft: '20px' }}>
                                         <h2 style={{ fontSize: '35px'}}><b>Speech to ASL Translator</b></h2>
