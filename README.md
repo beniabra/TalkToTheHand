@@ -46,3 +46,5 @@ https://beniabra.github.io/TalkToTheHand/
 **Presentation:** https://docs.google.com/presentation/d/1zDCt94RDffHJoVHgXLMQRJPvSCBvhWJGtKIA16B-YFg/edit#slide=id.g10b687a8bd6_0_596
 
 **Demo Video:** https://youtu.be/x2z2PumxJbA
+
+**Devpost:** https://devpost.com/software/talk-to-the-hand-0csw56
