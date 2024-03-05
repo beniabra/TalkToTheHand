@@ -1,11 +1,24 @@
 {
   "files": {
-    "main.js": "/TalkToTheHand/static/js/main.e05c0326.js",
+    "main.js": "/TalkToTheHand/static/js/main.e2cf2c35.js",
     "static/js/453.e466e223.chunk.js": "/TalkToTheHand/static/js/453.e466e223.chunk.js",
+    "static/media/embarrassed.jpg": "/TalkToTheHand/static/media/embarrassed.33cd3c66596c0221c3e3.jpg",
+    "static/media/excited.jpg": "/TalkToTheHand/static/media/excited.f2d4f6c4f696f7c79e8f.jpg",
+    "static/media/great.jpg": "/TalkToTheHand/static/media/great.8574ce067a4054711390.jpg",
+    "static/media/sad.jpg": "/TalkToTheHand/static/media/sad.898befa0c934da8e460a.jpg",
+    "static/media/happy.jpg": "/TalkToTheHand/static/media/happy.18aa9d6bea920489dbd8.jpg",
+    "static/media/afraid.jpg": "/TalkToTheHand/static/media/afraid.4abefbe9c42867dc4f7a.jpg",
+    "static/media/hurt.jpg": "/TalkToTheHand/static/media/hurt.24474a8b47cb1f75d0a3.jpg",
+    "static/media/tired.jpg": "/TalkToTheHand/static/media/tired.68399d23bd5e5fb6c412.jpg",
+    "static/media/good.jpg": "/TalkToTheHand/static/media/good.1828d1e377fbe32a171f.jpg",
     "static/media/brother.jpg": "/TalkToTheHand/static/media/brother.7933ea8421caa8b4a00e.jpg",
+    "static/media/bored.jpg": "/TalkToTheHand/static/media/bored.88e23759fabb6c2e47ac.jpg",
     "static/media/go.jpg": "/TalkToTheHand/static/media/go.a0eee892b2063496921a.jpg",
     "static/media/sister.jpg": "/TalkToTheHand/static/media/sister.a3f7027c5c7d81a910d4.jpg",
     "static/media/name.jpg": "/TalkToTheHand/static/media/name.ff49124103225b992b71.jpg",
+    "static/media/angry.jpg": "/TalkToTheHand/static/media/angry.3edad07f7a49637cf248.jpg",
+    "static/media/proud.jpg": "/TalkToTheHand/static/media/proud.9db6df48f7d4e17f2100.jpg",
+    "static/media/frustrated.jpg": "/TalkToTheHand/static/media/frustrated.e12d8e87a673199e3b86.jpg",
     "static/media/mom.jpg": "/TalkToTheHand/static/media/mom.62d517e8939f2a3070f2.jpg",
     "static/media/dad.jpg": "/TalkToTheHand/static/media/dad.8102e105f182277fa3c5.jpg",
     "static/media/3.jpg": "/TalkToTheHand/static/media/3.a411f4ff280953d0281f.jpg",
@@ -82,10 +95,10 @@
     "static/media/more.jpg": "/TalkToTheHand/static/media/more.2f4e229d88b557eade36.jpg",
     "static/media/help.jpg": "/TalkToTheHand/static/media/help.9e1498189e966ed5088b.jpg",
     "index.html": "/TalkToTheHand/index.html",
-    "main.e05c0326.js.map": "/TalkToTheHand/static/js/main.e05c0326.js.map",
+    "main.e2cf2c35.js.map": "/TalkToTheHand/static/js/main.e2cf2c35.js.map",
     "453.e466e223.chunk.js.map": "/TalkToTheHand/static/js/453.e466e223.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.e05c0326.js"
+    "static/js/main.e2cf2c35.js"
   ]
 }
