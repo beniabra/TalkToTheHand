@@ -639,6 +639,71 @@
             "name": "you",
             "category": "People",
             "image": "basic/you.jpg"
+        },
+        {
+            "name": "afraid",
+            "category": "Emotions",
+            "image": "basic/afraid.jpg"
+        },
+        {
+            "name": "angry",
+            "category": "Emotions",
+            "image": "basic/angry.jpg"
+        },
+        {
+            "name": "bored",
+            "category": "Emotions",
+            "image": "basic/bored.jpg"
+        },
+        {
+            "name": "embarrassed",
+            "category": "Emotions",
+            "image": "basic/embarrassed.jpg"
+        },
+        {
+            "name": "excited",
+            "category": "Emotions",
+            "image": "basic/excited.jpg"
+        },
+        {
+            "name": "frustrated",
+            "category": "Emotions",
+            "image": "basic/frustrated.jpg"
+        },
+        {
+            "name": "good",
+            "category": "Emotions",
+            "image": "basic/good.jpg"
+        },
+        {
+            "name": "great",
+            "category": "Emotions",
+            "image": "basic/great.jpg"
+        },
+        {
+            "name": "happy",
+            "category": "Emotions",
+            "image": "basic/happy.jpg"
+        },
+        {
+            "name": "hurt",
+            "category": "Emotions",
+            "image": "basic/hurt.jpg"
+        },
+        {
+            "name": "proud",
+            "category": "Emotions",
+            "image": "basic/proud.jpg"
+        },
+        {
+            "name": "sad",
+            "category": "Emotions",
+            "image": "basic/sad.jpg"
+        },
+        {
+            "name": "tired",
+            "category": "Emotions",
+            "image": "basic/tired.jpg"
         }
     ]
 }
