@@ -95,12 +95,12 @@ export function Learn() {
         
         <SimpleGrid columns={3} spacing={5}>
           <Card boxShadow="none" bg='teal.100'></Card>
-        <Card  onClick={flipCard}>              
+          <Card onClick={flipCard}>
              <ReactCardFlip containerStyle={{ height: '250px' }} isFlipped={isFlipped} flipDirection="horizontal">
               <CardBody>
                   {imagePath && (<img  src={require('./images/' + currentWords[currentCardIndex].image)} alt={currentWords[currentCardIndex].name} style={{ borderRadius: '20px', height:'200px', display: 'inline-block' }}></img>)}
               </CardBody>
-              <CardBody>
+              <CardBody  display="flex" justifyContent="center" alignItems="center" height="100%">
                 <b>{imagePath && currentWords[currentCardIndex].name}</b>
               </CardBody>
             </ReactCardFlip> 
