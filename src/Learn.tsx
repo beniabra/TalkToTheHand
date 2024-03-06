@@ -22,6 +22,7 @@ export function Learn() {
   }
 
   const handleNextCard = () => {
+    //setIsFlipped(false);
     if (currentCardIndex < currentWords.length)
     setCurrentCardIndex((prevIndex) => (prevIndex + 1) % currentWords.length);
   };
@@ -52,43 +53,43 @@ export function Learn() {
         templateAreas={`"nav main"
                         "nav footer"`}
         gridTemplateRows={'65px 1fr 30px'}
-        gridTemplateColumns={'150px 1fr'}
+        gridTemplateColumns={'200px 1fr'}
         
         gap='5'
         color='blackAlpha.700'
         fontWeight='bold'
       >
-        <GridItem pl='6' bg='teal' area={'nav'}>
-          <TabList paddingTop="4" paddingBottom="4" color="white" style={{ marginRight: "auto" }} >
-            <Grid templateRows='repeat(4, 1fr)'>
-              <Text as='b'>Lessons</Text>
-              <Button name="Alphabet" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Alphabet</Button>
-              <Button name="Numbers" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Numbers</Button>
+        <GridItem pl='5' bg='teal' area={'nav'}>
+          <TabList paddingTop="4" paddingBottom="5" color="white" style={{ marginRight: "auto" }} >
+            <Grid templateRows='repeat(3, 1fr)'>
+              <Text as='b' width='151%'>Lessons</Text>
+              <Button name="Alphabet" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Alphabet</Button>
+              <Button name="Numbers" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Numbers</Button>
               
               <Box bg='teal.550' w='100%' p={4}></Box>
               
-              <Button name="Basics" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Basics</Button>
+              <Button name="Basics" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Basics</Button>
 
-              <Box bg='teal.550' w='100%' p={4}></Box>
+              <Box bg='teal.550' w='100%' p={2}></Box>
 
-              <Button name="Actions" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Actions</Button>
-              <Button name="Animals" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Animals</Button>
-              <Button name="Clothing" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Clothing</Button>
-              <Button name="Colors" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Colors</Button>
-              <Button name="Emotions" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Emotions</Button>
-              <Button name="Food" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Food</Button>
-              <Button name="Greetings" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Greetings</Button>
-              <Button name="Jobs" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Jobs</Button>
-              <Button name="People" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>People</Button>
-              <Button name="Places" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Places</Button>
-              <Button name="Sports" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Sports</Button>
-              <Button name="Time" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Time</Button>
-              <Button name="Vehicles" colorScheme='teal' variant='solid' borderRadius='0px' onClick={onClick}>Vehicles</Button>
+              <Button name="Actions" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Actions</Button>
+              <Button name="Animals" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Animals</Button>
+              <Button name="Clothing" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Clothing</Button>
+              <Button name="Colors" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Colors</Button>
+              <Button name="Emotions" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Emotions</Button>
+              <Button name="Food" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Food</Button>
+              <Button name="Greetings" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Greetings</Button>
+              <Button name="Jobs" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Jobs</Button>
+              <Button name="People" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>People</Button>
+              <Button name="Places" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Places</Button>
+              <Button name="Sports" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Sports</Button>
+              <Button name="Time" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Time</Button>
+              <Button name="Vehicles" colorScheme='teal' variant='solid' borderRadius='0px' width='151%' onClick={onClick}>Vehicles</Button>
             </Grid>
           </TabList>
         </GridItem>
         <GridItem pl='2' bg='teal.200' area={'main'}>
-          <Box bg='teal.200' w='100%' p={4}>{title}</Box>
+          <Box w='100%' p={4} fontSize="23px">{title}</Box>
         </GridItem>
         <GridItem pl='2' bg='teal.100' area={'footer'}>
         <Box bg='teal.550' w='100%' p={4}></Box>
@@ -100,7 +101,7 @@ export function Learn() {
               <CardBody>
                   {imagePath && (<img  src={require('./images/' + currentWords[currentCardIndex].image)} alt={currentWords[currentCardIndex].name} style={{ borderRadius: '20px', height:'200px', display: 'inline-block' }}></img>)}
               </CardBody>
-              <CardBody  display="flex" justifyContent="center" alignItems="center" height="100%">
+              <CardBody  display="flex" justifyContent="center" alignItems="center" height="100%" style={{fontSize: "35px" }}>
                 <b>{imagePath && currentWords[currentCardIndex].name}</b>
               </CardBody>
             </ReactCardFlip> 
