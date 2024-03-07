@@ -704,6 +704,196 @@
             "name": "tired",
             "category": "Emotions",
             "image": "basic/tired.jpg"
+        },
+        {
+            "name": "add",
+            "category": "Actions",
+            "image": "basic/add.jpg"
+        },
+        {
+            "name": "allow",
+            "category": "Actions",
+            "image": "basic/allow.jpg"
+        },
+        {
+            "name": "ask",
+            "category": "Actions",
+            "image": "basic/ask.jpg"
+        },
+        {
+            "name": "blow",
+            "category": "Actions",
+            "image": "basic/blow.jpg"
+        },
+        {
+            "name": "bounce",
+            "category": "Actions",
+            "image": "basic/bounce.jpg"
+        },
+        {
+            "name": "break",
+            "category": "Actions",
+            "image": "basic/break.jpg"
+        },
+        {
+            "name": "bring",
+            "category": "Actions",
+            "image": "basic/bring.jpg"
+        },
+        {
+            "name": "brush teeth",
+            "category": "Actions",
+            "image": "basic/brush_teeth.jpg"
+        },
+        {
+            "name": "build",
+            "category": "Actions",
+            "image": "basic/build.jpg"
+        },
+        {
+            "name": "buy",
+            "category": "Actions",
+            "image": "basic/buy.jpg"
+        },
+        {
+            "name": "call",
+            "category": "Actions",
+            "image": "basic/call.jpg"
+        },
+        {
+            "name": "catch",
+            "category": "Actions",
+            "image": "basic/catch.jpg"
+        },
+        {
+            "name": "choose",
+            "category": "Actions",
+            "image": "basic/choose.jpg"
+        },
+        {
+            "name": "clean",
+            "category": "Actions",
+            "image": "basic/clean.jpg"
+        },
+        {
+            "name": "climb",
+            "category": "Actions",
+            "image": "basic/climb.jpg"
+        },
+        {
+            "name": "come",
+            "category": "Actions",
+            "image": "basic/come.jpg"
+        },
+        {
+            "name": "cook",
+            "category": "Actions",
+            "image": "basic/cook.jpg"
+        },
+        {
+            "name": "count",
+            "category": "Actions",
+            "image": "basic/count.jpg"
+        },
+        {
+            "name": "cry",
+            "category": "Actions",
+            "image": "basic/cry.jpg"
+        },
+        {
+            "name": "dance",
+            "category": "Actions",
+            "image": "basic/dance.jpg"
+        },
+        {
+            "name": "demand",
+            "category": "Actions",
+            "image": "basic/demand.jpg"
+        },
+        {
+            "name": "destroy",
+            "category": "Actions",
+            "image": "basic/destroy.jpg"
+        },
+        {
+            "name": "enjoy",
+            "category": "Actions",
+            "image": "basic/enjoy.jpg"
+        },
+        {
+            "name": "exercise",
+            "category": "Actions",
+            "image": "basic/exercise.jpg"
+        },
+        {
+            "name": "discover",
+            "category": "Actions",
+            "image": "basic/discover.jpg"
+        },
+        {
+            "name": "fall",
+            "category": "Actions",
+            "image": "basic/fall.jpg"
+        },
+        {
+            "name": "feel",
+            "category": "Actions",
+            "image": "basic/feel.jpg"
+        },
+        {
+            "name": "find",
+            "category": "Actions",
+            "image": "basic/find.jpg"
+        },
+        {
+            "name": "fix",
+            "category": "Actions",
+            "image": "basic/fix.jpg"
+        },
+        {
+            "name": "fly",
+            "category": "Actions",
+            "image": "basic/fly.jpg"
+        },
+        {
+            "name": "forget",
+            "category": "Actions",
+            "image": "basic/forget.jpg"
+        },
+        {
+            "name": "give",
+            "category": "Actions",
+            "image": "basic/give.jpg"
+        },
+        {
+            "name": "grab",
+            "category": "Actions",
+            "image": "basic/grab.jpg"
+        },
+        {
+            "name": "grow",
+            "category": "Actions",
+            "image": "basic/grow.jpg"
+        },
+        {
+            "name": "hear",
+            "category": "Actions",
+            "image": "basic/hear.jpg"
+        },
+        {
+            "name": "hit",
+            "category": "Actions",
+            "image": "basic/hit.jpg"
+        },
+        {
+            "name": "hold",
+            "category": "Actions",
+            "image": "basic/hold.jpg"
+        },
+        {
+            "name": "hug",
+            "category": "Actions",
+            "image": "basic/hug.jpg"
         }
     ]
 }
